@@ -29,7 +29,7 @@ ADVA Code 是一个基于恢复源码树继续维护和定制的 Claude Code 分
 
 - Bun >= 1.3.5
 - Node.js >= 24
-- Windows、macOS、Linux 终端环境均可，当前仓库在 Windows 上也可直接通过批处理脚本启动
+- Windows、macOS、Linux 终端环境均可
 
 ## 快速开始
 
@@ -41,7 +41,6 @@ bun run version
 bun run dev
 ```
 
-Windows 下如果你想直接双击启动，可以使用根目录里的 `start.bat`。
 
 ## 常用命令
 
