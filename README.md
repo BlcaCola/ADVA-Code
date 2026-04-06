@@ -146,17 +146,23 @@ ADVA Code 有自己的小天地：
 
 **全局配置**：
 - `~/.adva`（大本营）
-- `~/.adva/settings.json`（设置文件）
+- `~/.adva/.claude.json`（全局配置文件，包含 API 设置）
+- `~/.adva/settings.json`（用户设置文件）
 - `~/.adva/agents`（代理们住的地方）
 - `~/.adva/agent-memory`（代理们的记忆）
 
 **项目配置**：
-- `.adva/settings.json`（项目设置）
-- `.adva/settings.local.json`（本地设置，不提交）
+- `.claude/settings.json`（项目设置）
+- `.claude/settings.local.json`（本地设置，不提交）
 - `.adva/skills`（技能目录）
 - `.adva/agents`（项目代理）
 
 这样设计的目的很直接：**井水不犯河水**。这个分支和原版 Claude Code 的配置、认证、缓存完全隔离，就像两个独立的房间。
+
+**重要提示**：
+- API 配置（`customApiEndpoint`）应该在 `~/.adva/.claude.json` 中设置
+- 用户级别的其他设置在 `~/.adva/settings.json` 中
+- 项目级别的设置在 `.claude/settings.json` 中
 
 ## 🔑 API 配置（重要！）
 
@@ -186,7 +192,7 @@ ADVA Code 有自己的小天地：
 
 **配置文件**
 
-编辑 `~/.adva/settings.json`：
+编辑 `~/.adva/.claude.json`：
 
 ```json
 {
@@ -199,7 +205,7 @@ ADVA Code 有自己的小天地：
 }
 ```
 
-**方式三：交互式配置**
+**交互式配置**
 
 启动 ADVA Code 后使用 `/config` 命令进行交互式配置。
 

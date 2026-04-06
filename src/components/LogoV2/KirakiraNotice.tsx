@@ -44,7 +44,7 @@ export function KirakiraNotice() {
   }
   let t2;
   if ($[3] === Symbol.for("react.memo_cache_sentinel")) {
-    t2 = <Box paddingLeft={2}><AnimatedAsterisk char="☆" /><Text dimColor={true}>{" "}KiraKiraDokiDoki!</Text></Box>;
+    t2 = <Box paddingLeft={2}><AnimatedAsterisk char="☆" /><Text dimColor={true}>{" "}ADVAPUTE is really amazing!</Text></Box>;
     $[3] = t2;
   } else {
     t2 = $[3];
