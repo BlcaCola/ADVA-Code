@@ -208,7 +208,7 @@ ADVA Code 有自己的小天地：
 - ✅ **OpenAI**（官方）
 - ✅ **Azure OpenAI**
 - ✅ **其他 OpenAI 兼容 API**（如 DeepSeek、智谱等）
-- ✅ **Anthropic**（仍然支持，通过 `provider: "anthropic"`）
+- ✅ **Anthropic**
 
 ### 为什么这很重要？
 
