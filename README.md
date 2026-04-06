@@ -1,5 +1,7 @@
 # ADVA Code 🚀
 
+[English](README.en.md) | 简体中文
+
 [![Fork](https://img.shields.io/badge/fork-Claude%20Code-2563eb)](README.md)
 [![Status](https://img.shields.io/badge/status-restored%20%2B%20customized-10b981)](README.md)
 [![Runtime](https://img.shields.io/badge/runtime-Bun%201.3.5%2B-3b82f6)](README.md)
